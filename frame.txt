@@ -1,0 +1,42 @@
+- Abstract (?)
+- Introduction:
+    + Explain the paper (contents and scope):
+        Without environmental (modifying/interfering) inputs.
+    + Sensor definition.
+    + Ultrasonic sensor (from curriculum).
+    + HCSR04 (from datasheet).
+    + Introduce testing system:
+        I (cm) ----> HCSR04 ----> O (microsecond)
+                 |            |
+                 |            |
+               ruler     microcontroller
+- Calibration test:
+    + Environmental factors:
+        ~ Temperature.
+        ~ Humidity.
+        ~ In-room.
+    + Static characteristics:
+        ~ IO curve.
+        ~ Hysteresis.
+        ~ Non-linearity (ignore).
+    + Transfer function.
+    + Statistics:
+        ~ Repeatability.
+            + Histogram.
+            + Outliers.
+        ~ Probability distribution: before and after removing outliers.
+- Measurement system:
+    + Development board: Arduino Uno, with ATMEGA328P mc.
+    + Distance sensing:
+        ~ Measure manytimes.
+        ~ Process in batch.
+        ~ Output a statistic:
+            . Mean, after removing outliers.
+            . Median, without the need to remove outliers.
+    + Display:
+        ~ Shift register 74HC595.
+        ~ 4 digits 7-segments LED display.
+    + Results:
+        ~ Code.
+        ~ Data.
+        ~ Illustrations.

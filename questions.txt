@@ -1,0 +1,9 @@
+- (brief) Apologies for incorrectness.
+- Hệ thống khảo sát:
+    + Tiến hành thí nghiệm đo?
+    + else: số liệu được cung cấp?
+    + else: how to get?
+- Hệ thống đo:
+    + Tiến hành thí nghiệm khảo sát?
+    + else: Yêu cầu?
+- Sensor not appropriate: use photoregistor/thermoresistor only?

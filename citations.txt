@@ -1,0 +1,3 @@
+Nguyễn Hữu Cường, 2007, Giáo trình Cảm Biến.
+David Sanz Kirbis. 2015. Repair faulty HC-SR04 ultrasonic sensor (solve erratic no-readings problems).Retrieved from http://therandomlab.blogspot.com/
+ajoyraman (n.d.). Long Range Ultrasonic Distance Sensor. Retrieved from https://www.instructables.com/
